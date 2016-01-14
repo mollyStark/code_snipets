@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import argparse
 
 ap = argparse.ArgumentParser()
@@ -8,3 +9,5 @@ args = vars(ap.parse_args())
 # get the argument
 xarg = args["xarg"]
 opt = args["optional"]
+
+print xarg, opt
